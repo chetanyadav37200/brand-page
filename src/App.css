@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Sans+Condensed:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+  font-family: "Poppins",sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+}
+nav ul li{
+    padding: 15px;
+}
+.image{
+width: 80px;
+height: auto;
+margin-top: 20px;
+}
+nav button{
+    background-color: red;
+    border-radius: 8px;
+    height: 40px;
+    margin-top: 20px;
+    width: 60px;
+}
+.main{
+display:flex ;
+align-items: center;
+
+}
+.con{
+    width: 500px;
+    margin: auto;
+    font-size: 25px;
+}
+.imag{
+    width: 600px;
+    height: auto;
+}
+.av{
+    margin: 15px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    font-size: 15px;
+}
+.shop{
+    width: 50px;
+    height: auto;
+    margin: 7px;
+    margin-left: 0px;
+}
+.con button{
+    margin: 4px;
+    border-radius: 5px;
+    background-color: bisque;
+    
+}
+.con h1{
+    font-size: 70px;
+    margin: 4px;
+    padding: 4px;
+}
